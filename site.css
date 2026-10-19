@@ -577,6 +577,7 @@ footer {
     grid-template-columns: 1fr;
   }
   h1 { font-size: 1.85rem; }
+  .hero-lead { font-size: 1rem; }
   .container { width: min(100% - 2rem, var(--max)); }
   .stage { min-height: 0; margin-top: 1rem; padding: 0; }
   .phone {
