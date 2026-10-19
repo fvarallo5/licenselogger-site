@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="robots" content="noindex" />
+  <style>
+    @font-face {
+      font-family: Geist;
+      src: url("assets/fonts/Geist-Variable.woff2") format("woff2");
+      font-weight: 100 900;
+    }
+    html, body { margin: 0; }
+    body {
+      width: 1200px; height: 630px;
+      font-family: Geist, system-ui, sans-serif;
+      background: #f6f9fc;
+      color: #0f1b2d;
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      overflow: hidden;
+    }
+    .left { padding: 72px 64px; }
+    .brand { display: flex; align-items: center; gap: 14px; font-weight: 700; font-size: 28px; }
+    img { width: 56px; height: 56px; border-radius: 16px; }
+    h1 { font-size: 58px; line-height: 1.05; letter-spacing: -0.03em; margin: 28px 0 16px; font-weight: 750; }
+    h1 span { color: #1156c1; }
+    p { font-size: 22px; color: #525f6f; margin: 0; max-width: 34rem; }
+    .right {
+      background: #0f1b2d;
+      display: grid;
+      place-items: center;
+      color: #edf2f8;
+    }
+    .card { width: 320px; }
+    .k { font-size: 14px; letter-spacing: 0.08em; text-transform: uppercase; color: #9eacbe; font-weight: 650; }
+    .n { font-size: 48px; font-weight: 750; margin: 8px 0 4px; }
+    .s { color: #9eacbe; font-size: 18px; }
+  </style>
+</head>
+<body>
+  <div class="left">
+    <div class="brand"><img src="assets/logo.svg" alt="" /> LicenseLogger</div>
+    <h1>Hours the DMV can trust.<br /><span>A desk the school can run.</span></h1>
+    <p>GPS on the student phone. Board, Plan, and Pay in the office.</p>
+  </div>
+  <div class="right">
+    <div class="card">
+      <div class="k">Teaching now</div>
+      <div class="n">Maya</div>
+      <div class="s">9:00–10:00 · Jordan · pickup</div>
+    </div>
+  </div>
+</body>
+</html>

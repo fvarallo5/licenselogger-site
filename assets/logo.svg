@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-label="LicenseLogger">
+  <rect width="64" height="64" rx="18" fill="#1156C1"/>
+  <path d="M19 17v30h18" stroke="#F9AD26" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M32 17v30h18" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity="0.92"/>
+</svg>
